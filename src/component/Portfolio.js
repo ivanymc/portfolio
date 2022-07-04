@@ -46,8 +46,8 @@ const Portfolio = () => {
         name: "Portfolio",        
         description: "Portfolio website bulit by React, AOS and Typed.js",
         img: portfolioImg,
-        liveURL: "/",
-        githubURL: "",
+        liveURL: "https://ivanymc.github.io/portfolio/",
+        githubURL: "https://github.com/ivanymc/portfolio",
         skills: ["react", "bootstrap", "aos", "typedjs"],
     } ];
 
