@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.426b579d.css",
+    "main.js": "/portfolio/static/js/main.64f1e07d.js",
+    "static/media/videoplayer.gif": "/portfolio/static/media/videoplayer.34bee09cc88acbd1e745.gif",
+    "static/media/hiking.hk.gif": "/portfolio/static/media/hiking.hk.438ad0547a23e77af4ab.gif",
+    "static/media/reactblog.gif": "/portfolio/static/media/reactblog.29352aca02742affac87.gif",
+    "static/media/heroimg.png": "/portfolio/static/media/heroimg.cc265e1aa52477b8a9a8.png",
+    "static/media/portfoilo.gif": "/portfolio/static/media/portfoilo.4730cb5ca4e3b3706ce0.gif",
+    "static/media/bootstrap-icons.woff?": "/portfolio/static/media/bootstrap-icons.7ff3ca6fa798de3f8ac2.woff",
+    "static/media/Resume.pdf": "/portfolio/static/media/Resume.74bef2598f7152cd9325.pdf",
+    "static/media/bootstrap-icons.woff2?": "/portfolio/static/media/bootstrap-icons.f2539a501be3a673de05.woff2",
+    "static/media/todolist.gif": "/portfolio/static/media/todolist.35c6575740bde1c0dd56.gif",
+    "index.html": "/portfolio/index.html",
+    "main.426b579d.css.map": "/portfolio/static/css/main.426b579d.css.map",
+    "main.64f1e07d.js.map": "/portfolio/static/js/main.64f1e07d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.426b579d.css",
+    "static/js/main.64f1e07d.js"
+  ]
+}
