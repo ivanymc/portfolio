@@ -145,7 +145,7 @@ nav i {
 .hero-content-row {
   height: 100vh;  
   width: 100%;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 /* Above left section */
@@ -297,6 +297,10 @@ nav i {
 }
 
 @media (max-width: 575px) {
+  .hero-img {
+    height: 15rem;
+  }
+
   .hero-name {
     font-size: 2.5rem;
   }

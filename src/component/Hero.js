@@ -9,13 +9,12 @@ const Hero = () => {
 
     useEffect( () => {
         typed.current = new Typed( document.querySelector('.hero-job-title') , {
-            strings: ["Front-end Developer.", "Teacher."],
+            strings: ["Teacher.", "Front-end Developer."],
+            loop: true,
             typeSpeed: 50,
             backSpeed: 20,
-            backDelay: 2000,
-            loop: true,
+            backDelay: 2000,            
         });
-
         return () => { typed.current.destroy(); }
     }, [ ])      
     
