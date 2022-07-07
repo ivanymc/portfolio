@@ -5,17 +5,17 @@ import CV from '../asset/Resume.pdf';
 
 const Hero = () => {
 
-    let typed = useRef(null);
+    let typed_el = useRef(null);
 
     useEffect( () => {
-        typed.current = new Typed( document.querySelector('.hero-job-title') , {
+        const typed = new Typed( typed_el.current , {
             strings: ["Teacher.", "Front-end Developer."],
             loop: true,
             typeSpeed: 50,
             backSpeed: 20,
             backDelay: 2000,            
         });
-        return () => { typed.current.destroy(); }
+        return () => { typed.destroy(); }
     }, [ ])      
     
     return ( 
@@ -30,7 +30,7 @@ const Hero = () => {
                 <div className="hero-details-col col-lg-8 col-sm-12">
                     <div className="hero-job-typed"> Hello! I'm </div>
                     <h1 className="hero-name"> Ivan Chan </h1>
-                    <div className="hero-job-typed"> A <span className="hero-job-title" ref={ typed }> </span> </div>
+                    <div className="hero-job-typed"> A <span className="hero-job-title" ref={ typed_el }> </span> </div>
                     <a className="hero-cv-button btn btn-secondary py-3 mt-5 mb-3"
                         role="button" 
                         href={ CV }
