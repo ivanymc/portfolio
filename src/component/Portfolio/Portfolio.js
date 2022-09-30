@@ -115,8 +115,8 @@ const Portfolio = () => {
 											<video muted loop
 												className="project-card-video"
 												preload="metadata"								
-												onMouseOver={ e => e.target.play() }
-												onMouseLeave= { e => e.target.pause() }
+												onMouseOver={ e => e.currentTarget.play() }
+												onMouseLeave= { e => e.currentTarget.pause() }
 											>
 												<source src={ project.video } type="video/mp4" />
 											</video>																
