@@ -7,6 +7,7 @@ const Portfolio = () => {
 	
 	const portfolioRef = useRef(null);
 	const [ filter, setFilter ] = useState(null);
+
 	const SERVER_URL = process.env.REACT_APP_SERVER_URL;
 	const { data, isLoading, error } = useFetch(SERVER_URL);
 
@@ -31,17 +32,14 @@ const Portfolio = () => {
 			.classList.add("filter-active");
 
 		// Button value        
-		let filterButtonValue = e.target.value;  
+		let filterButtonValue = e.currentTarget.value;  
 		if (filterButtonValue === 'all') {
 				// Show all  
 				setFilter(data);
-				// bug need fix
-				console.log("all", filter);
 		} else {
 				// looking for the project which contain centain skill
 				let filteredArray = data.filter( item => (item.skills).includes(filterButtonValue) );
 				setFilter(filteredArray);
-				console.log("filter", filter);
 		}
 	};
 
@@ -112,14 +110,14 @@ const Portfolio = () => {
 										<div className="hover-message"> Keep hovering to play </div>						
 
 										<div className="project-card-img-overlay card-img-overlay">
-											<video muted loop
+
+											<video muted loop preload="auto"							
 												className="project-card-video"
-												preload="metadata"								
+												src={ project.video }
 												onMouseOver={ e => e.currentTarget.play() }
 												onMouseLeave= { e => e.currentTarget.pause() }
-											>
-												<source src={ project.video } type="video/mp4" />
-											</video>																
+											/>
+																								
 										</div>
 										
 									</div>
