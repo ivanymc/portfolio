@@ -1,0 +1,241 @@
+/* ======================================================
+    Hero 
+====================================================== */ 
+
+.hero-home {
+  width: 100vw;
+  height: 100vh;
+  background: url("../../asset/img-402.jpg") no-repeat;
+  background-size: cover;
+  background-position: left 9% top;
+  position: relative;
+}
+
+.hero-home:before {
+  content: " ";
+  background: rgba(0, 0, 0, 0.65);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.hero-container {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 15px;
+}
+
+.hero-name {
+  font-family: var(--font-hero-name);
+  color: var(--hero-text-color);
+  font-size: 6rem;
+  user-select: none;
+}
+
+.hero-job-typed {
+  color: var(--hero-text-color);
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+  user-select: none;
+}
+
+.hero-cv-button {
+  font-size: 1.25rem;  
+  border-radius: 0.5rem;  
+  width: fit-content;
+  margin-bottom: 1.5rem;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  background-color: var(--hero-btn-color);
+}
+
+.hero-cv-button:hover {
+  background-color: var(--hero-btn-hover-color);
+}
+
+
+.hero-scroll-down-button {
+  transition: 0.4s;
+  color: rgba(255, 255, 255, 0.6);
+  animation: up-down 0.8s ease-in-out infinite alternate-reverse both;
+}
+
+.hero-scroll-down-button i {
+  font-size: 1.5rem;
+}
+
+.hero-scroll-down-button:hover {
+  color: var(--btn-hover-color);
+}
+
+@keyframes up-down {
+  0% {
+    transform: translateY(5px);
+  }
+  100% {
+    transform: translateY(-5px);
+  }
+}
+
+@-webkit-keyframes up-down {
+  0% {
+    transform: translateY(5px);
+  }
+  100% {
+    transform: translateY(-5px);
+  }
+}
+
+/* ======================================================
+    Hero Mobile
+====================================================== */ 
+
+@media (min-width: 1024px) {
+  .hero-home {
+    background-attachment: fixed;
+    font-size: 4rem;
+  }
+
+  .hero-job-typed {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+
+  .hero-cv-button {
+    font-size: 1rem;  
+  }
+
+  .hero-scroll-down-button i {
+    font-size: 1.25rem;
+  }
+
+}
+
+@media (max-width: 575px) {
+  .hero-name {
+    font-size: 3rem;
+  }
+
+  .hero-job-typed {
+    font-size: 1.25rem;
+  }
+
+  .hero-cv-button {
+    font-size: 0.85rem;  
+  }
+
+  .hero-scroll-down-button i {
+    font-size: 1rem;
+  }
+};
+
+
+
+
+/*
+@media (max-width: 1399px) {
+  .hero-img {
+    height: 22rem;
+  }
+  
+  .hero-name {
+    font-size: 5.5rem;
+  } 
+
+  .hero-job-typed {
+    font-size: 1.8rem;
+  }
+
+  .hero-cv-button {
+    font-size: 1.4rem;
+  }  
+}
+
+@media (max-width: 1199px) {
+  .hero-img {
+    height: 18rem;
+  }
+
+  .hero-name {
+    font-size: 4.5rem;
+  }
+
+  .hero-job-typed {
+    font-size: 1.5rem;
+  }
+
+  .hero-cv-button {
+    font-size: 1.3rem;
+  }  
+}
+
+@media (max-width: 991px) {
+  .hero-scroll-down-col {
+    margin-top: 1rem;
+  }
+
+  .hero-img-col {
+    height: 45vh;
+    margin-top: 40px;
+    justify-content: center;
+  } 
+
+  .hero-name {
+    font-size: 3.5rem;
+  }
+  
+  .hero-job-typed {
+    font-size: 1.4rem;
+  }
+
+  .hero-cv-button {
+    font-size: 1.1rem;
+    margin-top: 1rem;
+  }
+
+  
+}
+
+@media (max-width: 768px) {
+  .hero-name {
+    font-size: 3rem;
+  }
+
+  .hero-job-typed {
+    font-size: 1.2rem;
+  }
+
+  .hero-cv-button {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .hero-img {
+    height: 15rem;
+  }
+
+  .hero-name {
+    font-size: 2.4rem;
+  }
+
+  .hero-job-typed {
+    font-size: 1.1rem;
+  }
+
+  .hero-cv-button {
+    font-size: 0.9rem;
+  }
+}
+*/

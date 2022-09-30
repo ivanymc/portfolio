@@ -1,0 +1,45 @@
+
+
+/* ======================================================
+    About
+====================================================== */ 
+
+.about {  
+  /* background: var(--bg-color-second); */
+  /* color: var(--text-color-second); */
+  font-size: 1rem;
+  text-align: center;
+  padding: 15px 0 10px 0;
+}
+
+/*
+.about-quotes p {
+  font-size: 0.8rem;
+  font-style: italic;
+  padding: 0;
+  margin: 0 0 15px 0;
+}
+*/
+
+.about-text p,
+.about-text i {
+  font-size: 1rem;
+  padding: 0;
+  margin: 0 0 15px 0;
+  word-wrap: break-word;
+  word-spacing: 0.2rem;
+  text-align: start;
+}
+
+.about-container img {
+  border: 1px solid var(--border-color-main);
+  border-radius: 20rem;
+  max-width: 90%;
+  height: auto; 
+}
+
+@media (max-width: 991px) {
+  .about-container img {
+    max-width: 50%;
+  }
+}

@@ -1,0 +1,120 @@
+/* ======================================================
+    Contact
+====================================================== */
+
+.contact-col {
+  display: flex;
+  justify-content: center;
+}
+
+.info-box {
+  color: var(--text-color-main);
+  background: var(--bg-color-main);
+  margin-left: 14px;
+}
+
+.info-box i {
+  font-size: 1.1rem;
+  color: var(--btn-color-contact);
+  border: 1px solid var(--border-color-contact);
+  border-radius: 2rem;
+  padding: 0.3rem;
+  float: left;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.info-box i:hover {
+  background-color: var(--btn-hover-color-contact);
+  border: 1px solid var(--btn-hover-color-contact);
+  color: var(--btn-hover-text-color-contact);
+}
+
+.info-box h4 {
+  font-size: 0.9rem;
+  color: var(--text-color-main);
+  padding: 0 0 0 3.5rem;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.info-box p {
+  color: var(--text-color-main);
+  padding: 0 0 0 3.5rem;
+  font-size: 0.9rem;
+  width: fit-content;
+}
+
+
+.email-form {
+  width: 100%;
+  background: var(--bg-color-main);
+}
+
+.email-form .form-group {
+  padding-bottom: 4px;
+}
+
+.email-form input,
+.email-form textarea {
+  border-radius: 0.7rem;
+  box-shadow: none;
+  font-size: 0.7rem;
+}
+
+.email-form input {
+  height: 44px;
+}
+
+.email-form textarea {
+  padding: 10px 12px;
+}
+
+.email-form button[type=submit] {
+  background: var(--btn-color-contact);
+  border: 0;
+  padding: 10px 35px;
+  color: var(--btn-hover-text-color-contact);
+  transition: 0.4s;
+  border-radius: 18px;
+  font-size: 0.8rem;
+}
+
+.email-form button[type=submit]:hover {
+  background:var(--btn-hover-color-contact);
+} 
+
+/* .bi-arrow-clockwise::before {
+  font-size: 1rem;
+  animation: loading 1s infinite linear;
+} */
+
+@keyframes loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.contact-toast {
+  margin: 1rem;
+  bottom: -1rem;
+  left: -0.25rem;
+}
+

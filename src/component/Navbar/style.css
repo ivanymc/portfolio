@@ -1,0 +1,99 @@
+/* ======================================================
+    Navbar
+====================================================== */ 
+.navbar {
+  background-color: var(--nav-bg-color);
+  opacity: 0.85;
+  backdrop-filter: blur(4px);
+  border-radius: 1px;
+  text-decoration: none;
+  overflow-x: hidden;
+  padding-top: 0.55rem;
+  padding-bottom: 0.55rem;
+}
+
+/* remove class after scroll 100vh*/
+.nav-transparent {
+  background: transparent;
+}
+
+.nav-link {
+  padding: 0px;
+}
+
+nav a {
+  color: var(--nav-transparent-main) !important;
+}
+
+nav a:hover {
+  color: var(--link-hover-color);
+  display: inline-block;
+  position: relative;
+}
+
+nav a:after {
+  content: " ";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: -2px;
+  left: 0;
+  background-color: var(--link-hover-color);
+  transform-origin: bottom right;
+}
+
+nav a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-link, 
+nav i {
+  margin-left: 0.3rem;
+  margin-right: 0.3rem;
+}
+
+nav i {
+  font-size: 1.4rem;
+}
+
+.navbar-nav > li {
+  font-size: 1rem;
+}
+
+
+@media (max-width: 768px) {
+  .navbar-nav > li {
+    font-size: 0.9rem;
+  }
+
+  nav i {
+    font-size: 1.2rem;
+  }
+
+  .nav-link, 
+  nav i {
+  margin-left: 0.3rem;
+  margin-right: 0.3rem;
+}
+
+}
+
+@media (max-width: 575px) {
+  .navbar-nav > li {
+    font-size: 0.8rem;
+  }
+
+  nav i {
+    font-size: 1rem;
+  }
+}
+
+
+
+
+
+
+

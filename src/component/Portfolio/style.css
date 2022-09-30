@@ -1,0 +1,181 @@
+
+/* ======================================================
+    Portfolio
+====================================================== */ 
+/* Portfolio Filter */
+.portfolio-filter-col {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio-filter button {
+  cursor: pointer;
+  display: inline-block;
+  padding: 8px;
+  margin: 0 6px 4px 6px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  line-height: 0.9;
+  text-transform: uppercase;
+  color: var(--text-color-main);
+  border: 2px solid var(--btn-bg-color);
+  background-color: var(--btn-bg-color);
+  transition: all 0.3s ease-in-out;
+  border-radius: 0.3rem;
+}
+
+.portfolio-filter button:hover,
+.portfolio-filter .filter-active {
+  border-color: var(--btn-hover-color);  
+  transition: all 0.3s ease-in-out;
+}
+
+/* Portfolio CARDSssssssss */
+.portfolio-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio-loading{
+  text-align: center;
+}
+
+.portfolio-loading i::before {
+  font-size: 2rem;
+}
+
+/* Portfolio CARD */
+.portfolio-card-col {
+  align-self: flex-start;
+}
+
+.portfolio-card {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color: var(--card-text-color);
+  background-color: var(--card-bg-color);
+  height: 35vh;
+  cursor: pointer;
+  border-radius: 0.3rem;
+}
+
+.portfolio-card img {
+  width: 100%;
+  height: 100%;
+}
+
+.hover-message {
+  position: absolute;
+  right: 8px;
+  bottom: 8px;
+  padding: 4px;
+  background-color: var(--card-bg-color);
+  border-radius: 4px;
+}
+
+.project-card-img-overlay {
+  padding: 0;
+  opacity: 0;
+  border-radius: 0.3rem;
+}
+
+.project-card-video {
+  object-fit: fill;
+  width: 100%;
+  height: 35vh;
+}
+
+.project-card-img-overlay:hover {  
+  opacity: 1;
+  transition-delay: 0.3s;
+}
+
+
+/* Portfolio LowerGrid */
+.portfolio-cards-lowergrid {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 2px;
+}
+
+.portfolio-cards-lowergrid a {
+  text-decoration: none;
+  color: var(--text-color-main);
+}
+
+.project-name {
+  margin: 0;
+  margin-left: 6px;
+  font-size: 1.3rem;
+}
+
+.project-url {
+  display: flex;
+  flex: 0 0;
+  flex-direction: row;
+}
+
+
+.project-url a {
+  color: var(--card-btn-color);
+}
+
+.project-url a:hover {
+  color: var(--card-btn-hover-color);
+  display: inline-block;
+  position: relative;
+}
+
+.project-url i {
+  font-size: 1.4rem;
+}
+
+.project-description {
+  font-size: 0.8rem;
+  margin: 0 0 6px 7px;
+  word-wrap: break-word;
+}
+
+.project-skills-used {
+  font-size: 0.5rem;
+  font-weight: 600;
+  border-radius: 1rem;
+  padding: 2px 4px;
+  margin: 2px 4px 6px 4px;
+  text-transform: uppercase;
+  color: var(--card-skill-text-color);
+  background: var(--card-skill-bg-color);
+  border: 2px solid transparent;
+}
+
+.project-skills-used:hover {
+  border: 2px solid var(--btn-hover-color);
+}
+
+
+/*
+.project-url a:after {
+  content: " ";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 2px;
+  left: 0;
+  background-color: var(--btn-hover-color);
+  transform-origin: bottom right;
+}
+
+.project-url a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  transition: all 0.3s ease-in-out;
+}
+*/
+
