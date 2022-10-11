@@ -60,11 +60,11 @@ const Contact = ({ notifySuccess, notifyError }) => {
                 </div>
 
                 <div className="contact-phone">
-                  <a href='https://wa.me/85262784648' target="_black" rel="noreferrer" title="Phone">
+                  <a href='https://wa.me/447853480901' target="_black" rel="noreferrer" title="Phone">
                     <i className="bi bi-phone" />
                   </a>
                   <h4>Phone / Whatsapp: </h4>
-                    <p> 6278 4648 </p>  
+                    <p> +44 7853 480901 </p>  
                 </div>
 
               </div>
