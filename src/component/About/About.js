@@ -24,13 +24,13 @@ const About = () => {
                   Hello!&#128075; I am Ivan Chan.
                 </p>
                 <p>
-                  A self-motivated Web Developer and former teacher from Hong Kong, dedicated to have a new career path in UK.
+                  A self-motivated Web Developer and former teacher from Hong Kong, excited to build a new career path in the UK. 
                 </p>                
                 <p>
-                  I tirelessly learn by myself the modern Frontend Framework and Backend language after acquiring the basics of HTML, CSS and JavaScript from the Certificate in Frontend Web Developer. I also developed multiple projects with MERN, React, Node.js, Express, MongoDB, JavaScript, Bootstrap and Material UI etc. which has proven myself as an autodidact and fast learner.
+                  I have dedicated myself to learning modern Frontend Frameworks and Backend languages, after acquiring the basics of HTML, CSS, and JavaScript through my Certificate in Frontend Web Developing. I have also developed multiple projects with MERN, React, Node.js, Express, MongoDB, JavaScript, Bootstrap and Material UI. 
                 </p>                
                 <p>
-                  Besides, having worked in an IT company enabled me to get in touch with the latest tech stacks and advanced my problem-solving skills and communication skills.
+                  Recent experience has enabled an understanding of the latest tech stacks and advanced my problem-solving and communication skills.
                 </p>
                   
               </div>
