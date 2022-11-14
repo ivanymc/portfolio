@@ -52,11 +52,11 @@ const Contact = ({ notifySuccess, notifyError }) => {
               <div className="info-box my-lg-4">
              
                 <div className="contact-email">
-                  <a href="mailto:scskchan@gmail.com" target="_top" rel="noreferrer" title="Email">
+                  <a href="mailto:ivanchanymuk@gmail.com" target="_top" rel="noreferrer" title="Email">
                     <i className="bi bi-envelope" />
                   </a>
                   <h4> Email: </h4>
-                    <p> ivanymchanuk@gmail.com </p>
+                    <p> ivanchanymuk@gmail.com </p>
                 </div>
 
                 <div className="contact-phone">
