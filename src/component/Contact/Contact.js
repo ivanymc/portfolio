@@ -52,19 +52,19 @@ const Contact = ({ notifySuccess, notifyError }) => {
               <div className="info-box my-lg-4">
              
                 <div className="contact-email">
-                  <a href="mailto:scskchan@gmail.com" target="_top" rel="noreferrer" title="Email">
+                  <a href="mailto:ivanchanymuk@gmail.com" target="_top" rel="noreferrer" title="Email">
                     <i className="bi bi-envelope" />
                   </a>
                   <h4> Email: </h4>
-                    <p> ivanymchanuk@gmail.com </p>
+                    <p> ivanchanymuk@gmail.com </p>
                 </div>
 
                 <div className="contact-phone">
-                  <a href='https://wa.me/85262784648' target="_black" rel="noreferrer" title="Phone">
+                  <a href='https://wa.me/447853480901' target="_black" rel="noreferrer" title="Phone">
                     <i className="bi bi-phone" />
                   </a>
                   <h4>Phone / Whatsapp: </h4>
-                    <p> 6278 4648 </p>  
+                    <p> 078534 80901 </p>  
                 </div>
 
               </div>

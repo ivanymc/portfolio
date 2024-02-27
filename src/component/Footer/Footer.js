@@ -9,7 +9,7 @@ const Footer = () => {
 
         <div className="copyright">
           <span>
-            Copyright &copy; 2022 Ivan Chan. All Rights Reserved. 
+            Copyright &copy; 2024 Ivan Chan. All Rights Reserved. 
           </span>
         </div>
 
