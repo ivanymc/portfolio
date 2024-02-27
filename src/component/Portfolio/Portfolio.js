@@ -97,11 +97,11 @@ const Portfolio = () => {
 
 				{ isLoading && 
 					<div className='text-center'>
-						<p> Connecting to free backend services, may take up to 50 seconds. </p>					
-						<div className="spinner-border spinner-border-sm" role="status" />
+						<p className='fs-6 my-3'> Connecting to free backend services, may take up to 50 seconds... </p>					
+						<div className="spinner-border spinner-border-lg mb-5" role="status" />
 					</div>
 				}
-				{ error && <div> Fail to fetch </div> }
+				{ error && <div className='text-center fs-6 my-3'> Fail to fetch </div> }
 
 				<div className="portfolio-cards row">				
 					
