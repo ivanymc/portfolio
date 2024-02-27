@@ -64,7 +64,7 @@ const Contact = ({ notifySuccess, notifyError }) => {
                     <i className="bi bi-phone" />
                   </a>
                   <h4>Phone / Whatsapp: </h4>
-                    <p> +44 7853 480901 </p>  
+                    <p> 078534 80901 </p>  
                 </div>
 
               </div>
