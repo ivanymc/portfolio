@@ -24,13 +24,13 @@ const About = () => {
                   Hello!&#128075; I am Ivan Chan.
                 </p>
                 <p>
-                  A self-motivated Web Developer and former teacher from Hong Kong, excited to build a new career path in the UK. 
+                  A self-motivated Web Developer from Hong Kong, now carving a career path in the UK with the right to work.
                 </p>                
                 <p>
-                  I have dedicated myself to learning modern Frontend Frameworks and Backend languages, after acquiring the basics of HTML, CSS, and JavaScript through my Certificate in Frontend Web Developing. I have also developed multiple projects with MERN, React, Node.js, Express, MongoDB, JavaScript, Bootstrap and Material UI. 
+                  Proficient in modern Frontend Frameworks while staying updated with the latest technologies. My journey began with the acquisition of foundational knowledge through a Certificate in Frontend Web Development, and I have since developed multiple projects utilizing MERN, React, Node.js, Express, MongoDB, JavaScript, Bootstrap, and Material UI.
                 </p>                
                 <p>
-                  Recent experience has enabled an understanding of the latest tech stacks and advanced my problem-solving and communication skills.
+                  During my tenure at Evolok, I contributed to the development team, leveraging JavaScript, AngularJS, Bootstrap, and Git. My contributions include spearheading the creation and maintenance of new widget features such as new social signing and linking process. Additionally, I developed and maintained a drag-and-drop, multi-column responsive dashboard, enabling clients to build widgets without coding in the console. Moreover, I meticulously styled web pages across diverse client projects, ensuring a cohesive and visually appealing user experience.
                 </p>
                   
               </div>
