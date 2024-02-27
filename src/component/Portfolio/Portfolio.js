@@ -11,6 +11,7 @@ const Portfolio = () => {
 	const SERVER_URL = process.env.REACT_APP_SERVER_URL;
 	const { data, isLoading, error } = useFetch(SERVER_URL);
 
+
 	// Display all projects at the beginning
 	useEffect( () => {
 		setFilter(data);
