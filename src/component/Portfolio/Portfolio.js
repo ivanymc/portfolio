@@ -11,6 +11,7 @@ const Portfolio = () => {
 	const SERVER_URL = process.env.REACT_APP_SERVER_URL;
 	const { data, isLoading, error } = useFetch(SERVER_URL);
 
+
 	// Display all projects at the beginning
 	useEffect( () => {
 		setFilter(data);
@@ -94,7 +95,12 @@ const Portfolio = () => {
 						</ul>
 				</div>
 
-				{ isLoading && <div className="spinner-border spinner-border-sm" role="status" /> }
+				{ isLoading && 
+					<div className='text-center'>
+						<p> Connecting to free backend services, may take up to 50 seconds. </p>					
+						<div className="spinner-border spinner-border-sm" role="status" />
+					</div>
+				}
 				{ error && <div> Fail to fetch </div> }
 
 				<div className="portfolio-cards row">				
