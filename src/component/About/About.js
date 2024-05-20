@@ -24,13 +24,13 @@ const About = () => {
                   Hello!&#128075; I am Ivan Chan.
                 </p>
                 <p>
-                  A self-motivated Web Developer from Hong Kong, now carving a career path in the UK with the right to work.
+                  A Full Stack Developer with 2 years’ experience, currently advancing my career in the UK with full working rights.
                 </p>                
                 <p>
-                  Proficient in modern Frontend Frameworks while staying updated with the latest technologies. My journey began with the acquisition of foundational knowledge through a Certificate in Frontend Web Development, and I have since developed multiple projects utilizing MERN, React, Node.js, Express, MongoDB, JavaScript, Bootstrap, and Material UI.
+                  During my tenure at Evolok, I played a pivotal role in enhancing the development team’s efficiency and elevating project outcomes. Leveraging my expertise in JavaScript, AngularJS, Bootstrap, and Git, I led the creation and maintenance of innovative widget features, notably spearheading the development of a social signing and linking process. Additionally, I engineered a user-friendly drag-and-drop, multi-column responsive dashboard, empowering clients to effortlessly construct widgets without the need for console coding. My dedication to meticulous web page styling across diverse client projects ensured a seamless and visually appealing user experience, ultimately contributing to heightened client satisfaction and increased user engagement. 
                 </p>                
                 <p>
-                  During my tenure at Evolok, I contributed to the development team, leveraging JavaScript, AngularJS, Bootstrap, and Git. My contributions include spearheading the creation and maintenance of new widget features such as new social signing and linking process. Additionally, I developed and maintained a drag-and-drop, multi-column responsive dashboard, enabling clients to build widgets without coding in the console. Moreover, I meticulously styled web pages across diverse client projects, ensuring a cohesive and visually appealing user experience.
+                  My achievements at Evolok underscore my ability to drive innovation and deliver impactful results. I am poised to bring this track record of success to your organization, ready to make meaningful contributions to its continued growth and success.
                 </p>
                   
               </div>
