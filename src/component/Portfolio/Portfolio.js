@@ -58,17 +58,24 @@ const Portfolio = () => {
 							
 							<button value="mern" onClick={ e => handleBtnFilter(e) }> mern </button>
 							<button value="react" onClick={ e => handleBtnFilter(e) }> react </button>
-							<button value="node.js" onClick={ e => handleBtnFilter(e) }> node.js </button>
-							<button value="express" onClick={ e => handleBtnFilter(e) }> express </button>
-							<button value="mongodb" onClick={ e => handleBtnFilter(e) }> mongodb </button>
-		
-							<button value="bootstrap" onClick={ e => handleBtnFilter(e) }> bootstrap </button>
-							<button value="material ui" onClick={ e => handleBtnFilter(e) }> material ui </button>	
+							<button value="zustand" onClick={ e => handleBtnFilter(e) }> zustand </button>
+							<button value="jest" onClick={ e => handleBtnFilter(e) }> jest </button>
+							<button value="tailwindCSS" onClick={ e => handleBtnFilter(e) }> tailwindCSS </button>
 
-							<button value="rest api" onClick={ e => handleBtnFilter(e) }> rest api </button>
+							<button value="node.js" onClick={ e => handleBtnFilter(e) }> node.js </button>
+							<button value="mongodb" onClick={ e => handleBtnFilter(e) }> mongodb </button>		
+
+							<button value="firebase" onClick={ e => handleBtnFilter(e) }> firebase </button>
+							<button value="openai" onClick={ e => handleBtnFilter(e) }> openai </button>
+
+							<button value="stripe" onClick={ e => handleBtnFilter(e) }> stripe </button>
 
 
 							<div style={{ display: "none" }}>
+							<button value="rest api" onClick={ e => handleBtnFilter(e) }> rest api </button>
+							<button value="bootstrap" onClick={ e => handleBtnFilter(e) }> bootstrap </button>
+							<button value="material ui" onClick={ e => handleBtnFilter(e) }> material ui </button>	
+							<button value="express" onClick={ e => handleBtnFilter(e) }> express </button>
 								<button value="ejs" onClick={ e => handleBtnFilter(e) }> ejs </button>
 
 								<button value="git" onClick={ e => handleBtnFilter(e) }> git </button>
@@ -136,11 +143,13 @@ const Portfolio = () => {
 											</a>                                        
 										</div>
 
+									{ project.githubURL && 
 										<div className="project-github-url mx-1">
 											<a href={ project.githubURL } target="_blank" title="Code" rel="noreferrer">
 												<i className="bi bi-github" />
 											</a>  
 										</div>
+									}
 									</div>
 								</div> 	
 
