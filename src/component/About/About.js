@@ -24,13 +24,13 @@ const About = () => {
                   Hello!&#128075; I am Ivan Chan.
                 </p>
                 <p>
-                  A self-motivated Web Developer and former teacher from Hong Kong, dedicated to have a new career path in UK.
+                  A Full Stack Developer with 2 years’ experience, currently advancing my career in the UK with full working rights.
                 </p>                
                 <p>
-                  I tirelessly learn by myself the modern Frontend Framework and Backend language after acquiring the basics of HTML, CSS and JavaScript from the Certificate in Frontend Web Developer. I also developed multiple projects with MERN, React, Node.js, Express, MongoDB, JavaScript, Bootstrap and Material UI etc. which has proven myself as an autodidact and fast learner.
+                  During my tenure at Evolok, I played a pivotal role in enhancing the development team’s efficiency and elevating project outcomes. Leveraging my expertise in JavaScript, AngularJS, Bootstrap, and Git, I led the creation and maintenance of innovative widget features, notably spearheading the development of a social signing and linking process. Additionally, I engineered a user-friendly drag-and-drop, multi-column responsive dashboard, empowering clients to effortlessly construct widgets without the need for console coding. My dedication to meticulous web page styling across diverse client projects ensured a seamless and visually appealing user experience, ultimately contributing to heightened client satisfaction and increased user engagement. 
                 </p>                
                 <p>
-                  Besides, having worked in an IT company enabled me to get in touch with the latest tech stacks and advanced my problem-solving skills and communication skills.
+                  My achievements at Evolok underscore my ability to drive innovation and deliver impactful results. I am poised to bring this track record of success to your organization, ready to make meaningful contributions to its continued growth and success.
                 </p>
                   
               </div>
