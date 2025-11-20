@@ -3,7 +3,7 @@ import React, { useEffect, useRef } from 'react';
 import './style.css'
 
 // Assets
-import CV from '../../asset/Resume.docx';
+import CV from '../../asset/Resume.pdf';
 
 const Hero = () => {
   
