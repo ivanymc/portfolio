@@ -23,7 +23,7 @@
 
 .about-text p,
 .about-text i,
-.about-text a {
+.about-text p a {
   font-size: 1rem;
   padding: 0;
   margin: 0 0 15px 0;
