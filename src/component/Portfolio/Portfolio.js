@@ -1,10 +1,11 @@
 import { useEffect, useRef, useState } from 'react';
 import useFetch from '../../hook/useFetch';
+import { getMediaPaths } from './portfolioMediaHelper';
 import './style.css';
 
 
 const Portfolio = () => {
-	
+
 	const portfolioRef = useRef(null);
 	const [ filter, setFilter ] = useState(null);
 
@@ -56,9 +57,11 @@ const Portfolio = () => {
 						<ul className="portfolio-filter">
 							<button className="filter-active" value="all" onClick={ e => handleBtnFilter(e) }>All</button>
 							
+							<button value="typescript" onClick={ e => handleBtnFilter(e) }> typescript </button>
 							<button value="mern" onClick={ e => handleBtnFilter(e) }> mern </button>
 							<button value="react" onClick={ e => handleBtnFilter(e) }> react </button>
 							<button value="zustand" onClick={ e => handleBtnFilter(e) }> zustand </button>
+							<button value="react query" onClick={ e => handleBtnFilter(e) }> react query </button>
 							<button value="jest" onClick={ e => handleBtnFilter(e) }> jest </button>
 							<button value="tailwindCSS" onClick={ e => handleBtnFilter(e) }> tailwindCSS </button>
 
@@ -113,21 +116,24 @@ const Portfolio = () => {
 
 								<a href={ project.liveURL } target="_blank" rel="noreferrer">
 									<div className="portfolio-card card">
-										
-										<img src={ project.img } loading="lazy" alt={ project.description } />
-										<div className="hover-message"> Keep hovering to play </div>						
+
+										<img src={ getMediaPaths(project.id).img } loading="lazy" alt={ project.description } />
+										{ project.video && <div className="hover-message"> Keep hovering to play </div> }
 
 										<div className="project-card-img-overlay card-img-overlay">
 
-											<video muted loop preload="auto"							
-												className="project-card-video"
-												src={ project.video }
-												onMouseOver={ e => e.currentTarget.play() }
-												onMouseLeave= { e => e.currentTarget.pause() }
-											/>
-																								
+											{ project.video && (
+												<video muted loop preload="auto"
+													className="project-card-video"
+													src={ getMediaPaths(project.id).video }
+													onMouseOver={ e => e.currentTarget.play() }
+													onMouseLeave= { e => e.currentTarget.pause() }
+													onError={ e => e.currentTarget.style.display = 'none' }
+												/>
+											)}
+
 										</div>
-										
+
 									</div>
 								</a>
 
@@ -156,12 +162,12 @@ const Portfolio = () => {
 								<div className="project-description"> { project.description } </div>
 								<div className="project-skills-col col-12 mb-3">
 
-									{ project.skills.map( (skill, index) => (
+									{ [...project.skills].sort().map( (skill, index) => (
 										<button className="project-skills-used"
 											key={ index }
 											value={ skill }
 											onClick={ e => handleBtnFilter(e) }
-										> 
+										>
 											{ skill }
 										</button>
 									))}
