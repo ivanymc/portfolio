@@ -27,7 +27,7 @@ const About = () => {
                 <p>
                   Led delivery, system architecture, and cloud infrastructure for
                   <a href="https://financeguru.co.uk" target="_blank" rel="noopener noreferrer">
-                    FinanceGuru
+                    {' '}FinanceGuru
                   </a>,
                   a business-loan comparison SaaS operating within a regulated financial services environment. As the sole engineer, I owned full-stack development, platform reliability, and cross-functional collaboration, significantly improving underwriting speed and operational efficiency.
                 </p>
@@ -39,7 +39,7 @@ const About = () => {
                 <p>
                   Alongside my professional work, I build and ship my own products. I founded
                   <a href="https://vibeteach.app/" target="_blank" rel="noopener noreferrer">
-                    VibeTeach
+                    {' '}VibeTeach
                   </a>,
                   an AI-powered SaaS that automates teaching material creation and saves educators up to 10 hours per week. I am also developing a production-focused React Native mobile application. I hold full UK working rights with no sponsorship required.
                 </p>
