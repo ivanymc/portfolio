@@ -8,6 +8,7 @@ const Portfolio = () => {
 
 	const portfolioRef = useRef(null);
 	const [ filter, setFilter ] = useState(null);
+	const [ expandedDescriptions, setExpandedDescriptions ] = useState({});
 
 	const SERVER_URL = process.env.REACT_APP_SERVER_URL;
 	const { data, isLoading, error } = useFetch(SERVER_URL);
@@ -25,7 +26,7 @@ const Portfolio = () => {
 		portfolioRef.current.scrollIntoView({ behavior: 'smooth' });
 
 		// Remove ALL filter-active
-		let allFilterButton = document.querySelectorAll('.portfolio-filter button');      
+		let allFilterButton = document.querySelectorAll('.portfolio-filter button');
 		Array.from(allFilterButton).forEach( button => button.classList.remove("filter-active"));
 
 		// Add filter-active to the button you click
@@ -33,16 +34,23 @@ const Portfolio = () => {
 			.find( activeButton => activeButton.value === e.target.value )
 			.classList.add("filter-active");
 
-		// Button value        
-		let filterButtonValue = e.currentTarget.value;  
+		// Button value
+		let filterButtonValue = e.currentTarget.value;
 		if (filterButtonValue === 'all') {
-				// Show all  
+				// Show all
 				setFilter(data);
 		} else {
 				// looking for the project which contain centain skill
 				let filteredArray = data.filter( item => (item.skills).includes(filterButtonValue) );
 				setFilter(filteredArray);
 		}
+	};
+
+	const toggleDescription = (projectId) => {
+		setExpandedDescriptions(prev => ({
+			...prev,
+			[projectId]: !prev[projectId]
+		}));
 	};
 
 	return (
@@ -159,8 +167,21 @@ const Portfolio = () => {
 									</div>
 								</div> 	
 
-								<div className="project-description"> { project.description } </div>
-								<div className="project-skills-col col-12 mb-3">
+								<div className="project-description-wrapper">
+									<div className={`project-description ${expandedDescriptions[project.id] ? 'expanded' : 'collapsed'}`}>
+										{ project.description }
+									</div>
+									{project.description && project.description.length > 150 && (
+										<button
+											className="show-more-btn btn-xs"
+											onClick={() => toggleDescription(project.id)}
+										>
+											{expandedDescriptions[project.id] ? 'Show less' : 'Show more'}
+										</button>
+									)}
+								</div>
+
+								<div className="project-skills-col col-12 mb-2">
 
 									{ [...project.skills].sort().map( (skill, index) => (
 										<button className="project-skills-used"
