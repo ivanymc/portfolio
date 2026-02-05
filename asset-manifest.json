@@ -1,18 +1,38 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.5584a86d.css",
-    "main.js": "/portfolio/static/js/main.c6cb7e6c.js",
+    "main.js": "/portfolio/static/js/main.194382ea.js",
+    "static/media/hikinghkVideo.mp4": "/portfolio/static/media/hikinghkVideo.b1a9a1fdfe933254f94d.mp4",
+    "static/media/nodeblogVideo.mp4": "/portfolio/static/media/nodeblogVideo.7e8b67b7bcc5612a9a64.mp4",
+    "static/media/portfolioVideo.mp4": "/portfolio/static/media/portfolioVideo.2e99e8f39e2252634cea.mp4",
+    "static/media/reactblogVideo.mp4": "/portfolio/static/media/reactblogVideo.9ade87713bb086815f19.mp4",
+    "static/media/youtubedemo.png": "/portfolio/static/media/youtubedemo.8cbef5c0c571f980ef9d.png",
+    "static/media/pokedexVideo.mp4": "/portfolio/static/media/pokedexVideo.e64e38862c4e852e346e.mp4",
     "static/media/heroimg.png": "/portfolio/static/media/heroimg.cc265e1aa52477b8a9a8.png",
+    "static/media/videoPlayerVideo.mp4": "/portfolio/static/media/videoPlayerVideo.459b9ae3922c9c9959bc.mp4",
     "static/media/img-402.jpg": "/portfolio/static/media/img-402.e1df70cf902d759f9d7f.jpg",
+    "static/media/chatroomVideo.mp4": "/portfolio/static/media/chatroomVideo.5a9fa76389c988957147.mp4",
+    "static/media/todolistVideo.mp4": "/portfolio/static/media/todolistVideo.20a62ef112255901cddb.mp4",
+    "static/media/hikinghk.jpg": "/portfolio/static/media/hikinghk.5e851f085dc287379a87.jpg",
+    "static/media/vibeteachVideo.mp4": "/portfolio/static/media/vibeteachVideo.822931d266818c7919ea.mp4",
+    "static/media/causalsimulation.png": "/portfolio/static/media/causalsimulation.7cec6885fb8e262257d7.png",
     "static/media/Resume.pdf": "/portfolio/static/media/Resume.f396a1e60e2877bed6f4.pdf",
+    "static/media/videoPlayer.jpg": "/portfolio/static/media/videoPlayer.3eb3877abb32ac456acc.jpg",
     "static/media/bootstrap-icons.woff?": "/portfolio/static/media/bootstrap-icons.7ff3ca6fa798de3f8ac2.woff",
+    "static/media/vibeteach.png": "/portfolio/static/media/vibeteach.5c16b93efd48f12bae1e.png",
+    "static/media/pokedex.jpg": "/portfolio/static/media/pokedex.c25734d0846854879745.jpg",
+    "static/media/portfolio.jpg": "/portfolio/static/media/portfolio.47444f0a969234a3793f.jpg",
     "static/media/bootstrap-icons.woff2?": "/portfolio/static/media/bootstrap-icons.f2539a501be3a673de05.woff2",
+    "static/media/chatroom.jpg": "/portfolio/static/media/chatroom.809f6251814245182286.jpg",
+    "static/media/nodeblog.jpg": "/portfolio/static/media/nodeblog.855cd6c61d8c8215dc88.jpg",
+    "static/media/reactBlog.jpg": "/portfolio/static/media/reactBlog.d9dd3958aef3e4781f75.jpg",
+    "static/media/todolist.jpg": "/portfolio/static/media/todolist.f95f8e7a7303ae1ae504.jpg",
     "index.html": "/portfolio/index.html",
     "main.5584a86d.css.map": "/portfolio/static/css/main.5584a86d.css.map",
-    "main.c6cb7e6c.js.map": "/portfolio/static/js/main.c6cb7e6c.js.map"
+    "main.194382ea.js.map": "/portfolio/static/js/main.194382ea.js.map"
   },
   "entrypoints": [
     "static/css/main.5584a86d.css",
-    "static/js/main.c6cb7e6c.js"
+    "static/js/main.194382ea.js"
   ]
 }
