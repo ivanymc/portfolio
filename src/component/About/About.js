@@ -20,35 +20,30 @@ const About = () => {
 
             <div className="col-lg-8 pt-4 pt-lg-0 gx-5 gx-lg-2">              
               <div className="about-text">
-                <p>
-                  Full-Stack Engineer with end-to-end ownership of production SaaS platforms, specialising in React, TypeScript, Node.js, and AWS serverless architecture. I focus on building scalable, production-grade systems that deliver clear commercial impact.
+               <p>
+                  Full-Stack Engineer with end-to-end ownership of production SaaS platforms, specialising in React, TypeScript, and AWS serverless architecture. I have a proven track record of delivering clear commercial impact, including a 5% contribution to total financial requirements, a 20% increase in deal conversion, and a 40% uplift in monthly commissions through scalable, production-grade systems.
                 </p>
 
                 <p>
-                  I am currently the sole engineer behind{" "}
+                  Led delivery, system architecture, and cloud infrastructure for
                   <a href="https://financeguru.co.uk" target="_blank" rel="noopener noreferrer">
                     FinanceGuru
-                  </a>
-                  , a business-loan comparison SaaS operating within a regulated financial services environment.
-                  I lead system architecture, cloud infrastructure, and full-stack delivery, with my work contributing
-                  to measurable outcomes such as increased deal conversion, improved commission performance, and
-                  significantly faster underwriting workflows.
+                  </a>,
+                  a business-loan comparison SaaS operating within a regulated financial services environment. As the sole engineer, I owned full-stack development, platform reliability, and cross-functional collaboration, significantly improving underwriting speed and operational efficiency.
                 </p>
 
                 <p>
-                  Previously at Evolok, I delivered reusable frontend systems and a drag-and-drop dashboard used
-                  across enterprise clients, improving user engagement while reducing ongoing engineering effort.
+                  Previously at Evolok, I delivered high-impact, reusable frontend systems and a drag-and-drop dashboard used across enterprise clients, improving user engagement while reducing ongoing engineering effort.
                 </p>
 
                 <p>
-                  Alongside my professional work, I build and ship my own products. I founded{" "}
+                  Alongside my professional work, I build and ship my own products. I founded
                   <a href="https://vibeteach.app/" target="_blank" rel="noopener noreferrer">
                     VibeTeach
-                  </a>
-                  , an AI-powered SaaS that automates teaching material creation and helps educators save up to
-                  10 hours per week. I also experiment with mobile development through a production-focused
-                  React Native application. I hold full UK working rights with no sponsorship required.
+                  </a>,
+                  an AI-powered SaaS that automates teaching material creation and saves educators up to 10 hours per week. I am also developing a production-focused React Native mobile application. I hold full UK working rights with no sponsorship required.
                 </p>
+
 
 
                   
