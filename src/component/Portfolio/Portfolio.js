@@ -68,7 +68,6 @@ const Portfolio = () => {
 							<button value="node.js" onClick={ e => handleBtnFilter(e) }> node.js </button>
 							<button value="mongodb" onClick={ e => handleBtnFilter(e) }> mongodb </button>		
 
-							<button value="firebase" onClick={ e => handleBtnFilter(e) }> firebase </button>
 							<button value="openai" onClick={ e => handleBtnFilter(e) }> openai </button>
 
 							<button value="stripe" onClick={ e => handleBtnFilter(e) }> stripe </button>
@@ -84,6 +83,7 @@ const Portfolio = () => {
 								<button value="git" onClick={ e => handleBtnFilter(e) }> git </button>
 
 								<button value="electron" onClick={ e => handleBtnFilter(e) }> electron </button>
+							<button value="firebase" onClick={ e => handleBtnFilter(e) }> firebase </button>
 
 								<button value="socket.io" onClick={ e => handleBtnFilter(e) }> socket.io </button>		
 
