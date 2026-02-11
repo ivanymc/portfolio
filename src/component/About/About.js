@@ -25,9 +25,9 @@ const About = () => {
                 </p>
 
                 <p>
-                  I led architecture and end-to-end delivery of 
+                  I led architecture and end-to-end delivery of {' '}
                   <a href="https://financeguru.co.uk" target="_blank" rel="noopener noreferrer">
-                    {' '}FinanceGuru
+                    FinanceGuru
                   </a>, 
                   a production business-loan comparison SaaS operating within a regulated financial services environment, owning system design, AWS cloud infrastructure, and full-stack implementation.
                 </p>
@@ -37,9 +37,9 @@ const About = () => {
                 </p>
 
                 <p>
-                  I also build and ship my own products. I founded 
+                  I also build and ship my own products. I founded {' '} 
                   <a href="https://vibeteach.app/" target="_blank" rel="noopener noreferrer">
-                    {' '}VibeTeach
+                    VibeTeach
                   </a>, 
                   an AI-powered SaaS that automates teaching material creation and saves educators up to 10 hours per week. I am currently building a production-focused React Native mobile application. I hold full UK working rights with no sponsorship required.
                 </p>
